@@ -139,6 +139,10 @@ app.get('/', (req, res) => {
   res.redirect('/room/@demo')
 });
 
+app.get('/room', (req, res) => {
+  res.redirect('/room/@demo')
+});
+
 app.get('/filter', (req, res) => {
   const { q } = req.query
   res.send(processInput(q))
