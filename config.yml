@@ -2,7 +2,7 @@ app:
   port: 3000
 
 db:
-  type: mongodb # sqlite or mongodb or firebase
+  type: sqlite # sqlite or mongodb or firebase
 
 # if use firebase, please add your api here
 firebase:
